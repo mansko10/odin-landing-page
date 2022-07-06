@@ -196,3 +196,14 @@ p {
 }
 
 
+/* ================================ footer ================================ */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 40px 0;
+    font-size: 18px;
+}
