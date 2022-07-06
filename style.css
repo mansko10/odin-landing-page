@@ -81,3 +81,49 @@ p {
     background-color: #3882F6;
     border: none;
 }
+
+/* ================================ information ================================ */
+
+.information {
+    border: 1px solid orange;
+    padding: 20px 0 80px;
+}
+
+.information .information-heading {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    margin: 15px 0 50px;
+    font-weight:bold;
+    font-weight: bolder;
+}
+
+.information .illustration-container {
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.illustration-container .illustration {
+    flex: 0 1 180px;
+    display: flex;
+    flex-direction: column;    
+    gap: 15px;
+}
+
+.illustration .illustration-img {
+    height: 100px;
+    width: 100%;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    flex: 0 1 180px;
+}
+
+.illustration .illustration-text {
+    font-size: 18px;
+    opacity: 0.8;
+}
