@@ -167,3 +167,51 @@ nav a {
     font-weight: bolder;
     font-size: 24px;
 }
+
+/*--------------------------------------ACTION SECTION STYLES --------------------------------------*/
+
+.action-section {
+    border: 5px solid midnightblue;
+    padding: 100px 0;
+    
+}
+
+.action-div {
+    background-color: #3882f6;
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.action-text {
+    margin: 0;
+}
+
+.action-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.action-text p {
+    margin: 0;
+}
+
+.action-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+@media screen and (max-width: 850px) {
+    .action-div {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
