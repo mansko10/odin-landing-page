@@ -139,3 +139,31 @@ nav a {
         flex-wrap: wrap;
     }
 }
+
+/*--------------------------------------QUOTE SECTION STYLES --------------------------------------*/
+
+.quote-section {
+    padding: 100px 0;
+    background-color: #e5e7eb;
+}
+
+.quote-div {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+}
