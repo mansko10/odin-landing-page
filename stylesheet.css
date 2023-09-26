@@ -96,3 +96,46 @@ nav a {
         display: none;
     }
 }
+
+/*--------------------------------------INFO SECTION STYLES --------------------------------------*/
+
+.info-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.info-container {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-item {
+    max-width: 120px;
+    min-height: 250px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.info-item-img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    flex: 1 0 0;
+}
+
+.info-item-description {
+    flex: 1 0 0;
+}
+
+@media screen and (max-width: 448px) {
+    .info-container {
+        flex-wrap: wrap;
+    }
+}
