@@ -171,7 +171,6 @@ nav a {
 /*--------------------------------------ACTION SECTION STYLES --------------------------------------*/
 
 .action-section {
-    border: 5px solid midnightblue;
     padding: 100px 0;
     
 }
@@ -214,4 +213,15 @@ nav a {
         text-align: center;
         gap: 20px;
     }
+}
+
+/*--------------------------------------FOOTER SECTION STYLES --------------------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #1f2937;
+    color: white;
 }
